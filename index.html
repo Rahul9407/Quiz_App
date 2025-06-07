@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="quiz">
+    <h2 id="question">Loading question...</h2>
+    <ul>
+      <li><input type="radio" name="answer" class="answer" id="a"><label for="a" class="option_1 answer-label">Option A</label></li>
+      <li><input type="radio" name="answer" class="answer" id="b"><label for="b" class="option_2 answer-label">Option B</label></li>
+      <li><input type="radio" name="answer" class="answer" id="c"><label for="c" class="option_3 answer-label">Option C</label></li>
+      <li><input type="radio" name="answer" class="answer" id="d"><label for="d" class="option_4 answer-label">Option D</label></li>
+    </ul>
+    <button id="submit" class="btn">Submit</button>
+    <div class="timer" id="timer">Time Left: 10s</div>
+  </div>
+
+    <script src="index.js"></script>    
+</body>
+</html>
